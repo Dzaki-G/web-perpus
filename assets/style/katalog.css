@@ -1,0 +1,21 @@
+.custom-table thead {
+    background: linear-gradient(135deg, #036280, #012e4a);
+    color: white;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #d0e2ff; /* soft hover effect */
+}
+
+.custom-table {
+    border-radius: 10px;
+    overflow: hidden; /* agar sudut membulat terlihat */
+}
+.custom-table tbody tr:hover td,
+.custom-table tbody tr:hover th {
+    color: #0a58ca; /* warna teks hover */
+}
+.pagination .page-item .page-link{
+    background: linear-gradient(135deg, #036280, #012e4a);
+    color: white;
+}

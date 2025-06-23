@@ -1,0 +1,155 @@
+/* === Base === */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f4f7fc;
+    color: #1c2b36;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+/* === Container === */
+.edit-page {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* === Headings === */
+.page-title {
+    font-size: 1.8rem;
+    color: #0b5ed7;
+    margin-bottom: 1.5rem;
+}
+
+/* === Alerts === */
+.alert {
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+.alert-error {
+    background-color: #f8d7da;
+    color: #842029;
+}
+.alert-success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+/* === Form === */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label,
+.field label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #0a3c7d;
+}
+
+input[type="text"],
+textarea,
+select {
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #b6c4d1;
+    border-radius: 6px;
+    transition: border-color 0.2s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #0b5ed7;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* === Section === */
+.form-section {
+    border: 1px solid #dee2e6;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-top: 2rem;
+}
+
+.form-section legend {
+    font-weight: bold;
+    color: #0b5ed7;
+    padding: 0 0.5rem;
+}
+
+/* === Grid for info fields === */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+/* === Buttons === */
+.form-actions {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background-color: #0b5ed7;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #094cb0;
+}
+
+.btn-link {
+    color: #0b5ed7;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    padding: 0.6rem 0.2rem;
+}
+
+.btn-link:hover {
+    color: #063c9e;
+}
+
+/* === Required field marker === */
+.required {
+    color: red;
+}

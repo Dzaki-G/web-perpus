@@ -1,0 +1,152 @@
+/* Reset basic styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  .home-icon {
+    position: relative;
+    
+    font-size: 1.8rem;
+    color: #012e4a;
+    z-index: 1000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.home-icon:hover {
+    color: #0d6efd;
+}
+
+  h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #012e4a;
+  }
+  /* Container styling */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Book Header */
+  .book-header {
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .book-title {
+    font-size: 28px;
+    color: #012e4a;
+    margin-bottom: 5px;
+  }
+  
+  .author-info {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Description */
+  .book-description p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Availability Table */
+  .availability-section h2,
+  .detail-section h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #012e4a;
+  }
+  
+  .availability-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .availability-table th,
+  .availability-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .collection-info {
+    font-weight: 500;
+  }
+  
+  .location {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  .status-badge.available {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .status-badge.borrowed {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  /* Detail Grid */
+  .detail-grid {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .detail-item {
+    flex: 1 1 200px;
+  }
+  
+  .detail-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #555;
+  }
+  
+  .detail-value {
+    color: #333;
+  }
+
+  .book-image {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .book-image img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
